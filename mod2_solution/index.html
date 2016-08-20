@@ -1,6 +1,12 @@
 <!DOCTYPE html>
 
-<!-- Your site is very simple. It consists of a page heading and 3 sections (all in one row in the desktop view). Each section contains some text. You can make it dummy text/”lorem ipsum”, it doesn’t matter. How the sections are laid out on the screen depends on the width of the browser window. (Hint: use media queries discussed in Lecture 23.) -->
+<!-- ayout: In the desktop view (992px and above), each of the 3 sections should take up equal amount of space on the screen. As you make the browser window wider or narrower, each section should become wider or narrower. (Hint: use percentages to define width and use the ‘float’ property. See Lecture 24). For a visual reference of this view, see the desktop mockup illustration below.
+
+
+Layout: In the tablet view (between 768px and 991px, inclusively), the first 2 sections should be in the first row and be of equal size. The 3rd section should be in the second row and take up the entire row by itself. For a visual reference of this view, see the tablet mockup illustration below.
+
+
+Layout: In the mobile view (equal to or less than 767px), each section should take up the entire row. For a visual reference of this view, see the mobile mockup illustration below. -->
  
 <html>
 <head>
@@ -13,9 +19,11 @@
 <h1>Responsive Layout</h1>
 
 <div class="row">
-  <section class="col-lg-3 col-md-6"><p>Item 1</p></section>
-  <section class="col-lg-3 col-md-6"><p>Item 2</p></section>
-  <section class="col-lg-3 col-md-6"><p>Item 3</p></section>
+  <section class="col-1"><p>Lorem ipsum Deserunt exercitation Ut occaecat irure do occaecat esse.</p></section>
+
+  <section class="col-2"><p>Lorem ipsum Ut laborum voluptate est laboris laborum qui tempor qui tempor minim aliquip ullamco. Lorem ipsum Mollit laborum minim est fugiat in ad aliquip non adipisicing eu. Lorem ipsum Magna eu laboris et nulla irure sit magna.</p></section>
+
+  <section class="col-3"><p>Lorem ipsum Sed qui ullamco exercitation voluptate sit Excepteur minim. Ut proident eiusmod incididunt dolore quis reprehenderit aliqua ex in. Consectetur non exercitation officia dolore incididunt in culpa dolor.  Lorem ipsum Aliqua id officia consectetur labore labore in magna irure. Lorem ipsum Dolor occaecat laboris aliquip nostrud ad sunt consequat dolor nisi.</p></section>
 </div>
 
 </body>
