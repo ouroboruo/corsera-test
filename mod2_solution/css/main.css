@@ -27,21 +27,27 @@ section {
   background-color: pink;
 }
 
+.col-1, .col-2, .col-3 {
+  width: 300px;
+  height: 400px;
+  border: 5px solid black;
+}
+
 /********** Desktop **********/
 @media (min-width: 992px){
-  .col-lg-1, .col-lg-2, .col-lg-3 {
+  .col-1, .col-2, .col-3 {
     border: 5px solid green;
   }
-  .col-lg-1 {
+  .col-1 {
     width: 33%;
     float: left;
 
   }
-  .col-lg-2 {
+  .col-2 {
     width: 33%;
     float: left;
   }
-  .col-lg-3 {
+  .col-3 {
     width: 33%;
     float: right;
   }
@@ -49,34 +55,35 @@ section {
 
 /********** Tablet **********/
 @media (min-width: 768px) and (max-width: 991px) {
-  .col-med-1, .col-med-2, .col-med-3 {
-    border: 5px solid black;
+  .col-1, .col-2, .col-3 {
+    border: 5px solid blue;
   }
-  .col-med-1 {
-    width: 50%;
+  .col-1 {
+    width: 45%;
     float: left;
   }
-  .col-med-2 {
-    width: 50%;
-    float: 
+  .col-2 {
+    width: 45%;
+    float: left;
   }
-  .col-med-3 {
+  .col-3 {
     width: 100%;
+    clear: left;
   }
 }
 /********** Mobile **********/
 @media (max-width: 767px){
-  .col-sm-1, .col-sm-2, .col-sm-3 {
+  .col-1, .col-2, .col-3 {
     float: left;
     border: 5px solid pink;
   }
-  .col-sm-1 {
+  .col-1 {
     width: 100%;
   }
-  .col-sm-2 {
+  .col-2 {
     width: 100%;
   }
-  .col-sm-3 {
+  .col-3 {
     width: 100%;
   }
 }
