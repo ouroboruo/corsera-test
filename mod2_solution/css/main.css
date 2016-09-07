@@ -9,6 +9,8 @@ body {
 
 h1 {
   margin-bottom: 15px;
+  text-align: center;
+  padding-bottom: 50px;
 }
 
 h2.chicken{
@@ -19,6 +21,7 @@ h2.chicken{
   float:right;
   padding-right: 30px;
   padding-left: 30px;
+  margin-top: 0px;
 }
 
 h2.beef{
@@ -29,6 +32,7 @@ h2.beef{
   float:right;  
   padding-right: 30px;
   padding-left: 30px;
+  margin-top: 0px;
 }
 
 h2.sushi{
@@ -39,6 +43,7 @@ h2.sushi{
   float:right;
   padding-right: 30px;
   padding-left: 30px;
+  margin-top: 0px;
 }
 
 p {
