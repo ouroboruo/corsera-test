@@ -11,9 +11,12 @@ h1 {
   margin-bottom: 15px;
 }
 
-h2 {
-  position: relative;
-  border: 1px solid black;
+h2.protien {
+  background-color: grey;
+  border: 10px solid black;
+  max-height: 50px;
+  display: inline-block;
+  float:right;
 }
 
 p {
@@ -24,6 +27,8 @@ p {
   margin: 10px;
   font-family: Helvetica;
   color: white;
+  text-align: left;
+  clear: right;
 }
 
 section {
