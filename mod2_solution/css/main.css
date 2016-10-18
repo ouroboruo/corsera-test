@@ -60,10 +60,10 @@ section {
 }
 
 /* Simple Responsive Framework. */
-.row {
+/*.row {
   width: 100%;
   height: auto;
-}
+}*/
 
 .col-1, .col-2, .col-3 {
   width: 300px;
@@ -78,20 +78,9 @@ section {
 /********** Desktop **********/
 @media (min-width: 992px){
   .col-1, .col-2, .col-3 {
-    border: 1px solid black;;
-  }
-  .col-1 {
-    width: 32%;
+    border: 1px solid black;
     float: left;
-
-  }
-  .col-2 {
     width: 32%;
-    float: left;
-  }
-  .col-3 {
-    width: 32%;
-    float: right;
   }
 }
 
